@@ -1,14 +1,36 @@
 {
+  "_from": "react-native-fcm@16.2.4",
+  "_id": "react-native-fcm@16.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-1bUunJMz4PbnvWeFgSjdcEvSU3JIFz0T3N4b4XiyeZtF5pMEBYVx10kkWR+xF4AevPeE1+zpeiVxsa+XwcysZA==",
+  "_location": "/react-native-fcm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-fcm@16.2.4",
+    "name": "react-native-fcm",
+    "escapedName": "react-native-fcm",
+    "rawSpec": "16.2.4",
+    "saveSpec": null,
+    "fetchSpec": "16.2.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-fcm/-/react-native-fcm-16.2.4.tgz",
+  "_shasum": "1ed0cf6a9712949c178ee01265cc0b98b103dfc3",
+  "_spec": "react-native-fcm@16.2.4",
+  "_where": "/Users/algeran/Documents/Projects/MustarReact",
   "author": {
     "name": "Libin Lu"
   },
   "bugs": {
     "url": "https://github.com/evollu/react-native-fcm/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "React Native bridge for firebase cloud messaging (FCM)",
-  "peerDependencies": {
-    "react-native": ">=0.40.0"
-  },
   "homepage": "https://github.com/evollu/react-native-fcm",
   "keywords": [
     "React-Native",
@@ -20,6 +42,9 @@
   ],
   "license": "MIT",
   "name": "react-native-fcm",
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evollu/react-native-fcm.git"
