@@ -83,13 +83,13 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "com.google.firebase.quickstart.fcm"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         ndk {
@@ -124,8 +124,8 @@ android {
         }
     }
     configurations.all {
-        resolutionStrategy.force 'com.android.support:support-core-utils:26.1.0'
-        resolutionStrategy.force 'com.android.support:support-core-ui:26.1.0'
+        resolutionStrategy.force 'androidx.legacy:legacy-support-core-utils'
+        resolutionStrategy.force 'androidx.legacy:legacy-support-core-ui'
     }
 }
 
